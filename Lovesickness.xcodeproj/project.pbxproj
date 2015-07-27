@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200CBFC86629C492809B48FB /* libPods-Lovesickness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD77296F35E213DDD1876B33 /* libPods-Lovesickness.a */; };
+		96FD13221B66560E000F472C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD13211B66560E000F472C /* main.m */; };
+		96FD13251B66560E000F472C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD13241B66560E000F472C /* AppDelegate.m */; };
+		96FD132D1B66560E000F472C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FD132C1B66560E000F472C /* Images.xcassets */; };
+		96FD133C1B66560E000F472C /* LovesicknessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FD133B1B66560E000F472C /* LovesicknessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96FD13361B66560E000F472C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FD13141B66560E000F472C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FD131B1B66560E000F472C;
+			remoteInfo = Lovesickness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		369A54B379ADB99A4B9F39E1 /* Pods-Lovesickness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovesickness.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lovesickness/Pods-Lovesickness.release.xcconfig"; sourceTree = "<group>"; };
+		96FD131C1B66560E000F472C /* Lovesickness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovesickness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD13201B66560E000F472C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD13211B66560E000F472C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96FD13231B66560E000F472C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96FD13241B66560E000F472C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96FD132C1B66560E000F472C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96FD13351B66560E000F472C /* LovesicknessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovesicknessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD133A1B66560E000F472C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FD133B1B66560E000F472C /* LovesicknessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovesicknessTests.m; sourceTree = "<group>"; };
+		BD77296F35E213DDD1876B33 /* libPods-Lovesickness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lovesickness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB46E5F484459BE8873A0EB /* Pods-Lovesickness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovesickness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lovesickness/Pods-Lovesickness.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FD13191B66560E000F472C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200CBFC86629C492809B48FB /* libPods-Lovesickness.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD13321B66560E000F472C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FD13131B66560E000F472C = {
+			isa = PBXGroup;
+			children = (
+				96FD131E1B66560E000F472C /* Lovesickness */,
+				96FD13381B66560E000F472C /* LovesicknessTests */,
+				96FD131D1B66560E000F472C /* Products */,
+				C8BB5666D39E477265A1FD5B /* Pods */,
+				F619E7BF7E46780424CF159B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96FD131D1B66560E000F472C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FD131C1B66560E000F472C /* Lovesickness.app */,
+				96FD13351B66560E000F472C /* LovesicknessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FD131E1B66560E000F472C /* Lovesickness */ = {
+			isa = PBXGroup;
+			children = (
+				96FD13231B66560E000F472C /* AppDelegate.h */,
+				96FD13241B66560E000F472C /* AppDelegate.m */,
+				96FD132C1B66560E000F472C /* Images.xcassets */,
+				96FD131F1B66560E000F472C /* Supporting Files */,
+			);
+			path = Lovesickness;
+			sourceTree = "<group>";
+		};
+		96FD131F1B66560E000F472C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96FD13201B66560E000F472C /* Info.plist */,
+				96FD13211B66560E000F472C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96FD13381B66560E000F472C /* LovesicknessTests */ = {
+			isa = PBXGroup;
+			children = (
+				96FD133B1B66560E000F472C /* LovesicknessTests.m */,
+				96FD13391B66560E000F472C /* Supporting Files */,
+			);
+			path = LovesicknessTests;
+			sourceTree = "<group>";
+		};
+		96FD13391B66560E000F472C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96FD133A1B66560E000F472C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8BB5666D39E477265A1FD5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB46E5F484459BE8873A0EB /* Pods-Lovesickness.debug.xcconfig */,
+				369A54B379ADB99A4B9F39E1 /* Pods-Lovesickness.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F619E7BF7E46780424CF159B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD77296F35E213DDD1876B33 /* libPods-Lovesickness.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FD131B1B66560E000F472C /* Lovesickness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FD133F1B66560E000F472C /* Build configuration list for PBXNativeTarget "Lovesickness" */;
+			buildPhases = (
+				66090E5CEB4998C85B5B0BCF /* Check Pods Manifest.lock */,
+				96FD13181B66560E000F472C /* Sources */,
+				96FD13191B66560E000F472C /* Frameworks */,
+				96FD131A1B66560E000F472C /* Resources */,
+				A3352C7C8A78107D6F6BCAE7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lovesickness;
+			productName = Lovesickness;
+			productReference = 96FD131C1B66560E000F472C /* Lovesickness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96FD13341B66560E000F472C /* LovesicknessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FD13421B66560E000F472C /* Build configuration list for PBXNativeTarget "LovesicknessTests" */;
+			buildPhases = (
+				96FD13311B66560E000F472C /* Sources */,
+				96FD13321B66560E000F472C /* Frameworks */,
+				96FD13331B66560E000F472C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FD13371B66560E000F472C /* PBXTargetDependency */,
+			);
+			name = LovesicknessTests;
+			productName = LovesicknessTests;
+			productReference = 96FD13351B66560E000F472C /* LovesicknessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FD13141B66560E000F472C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = JHH;
+				TargetAttributes = {
+					96FD131B1B66560E000F472C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					96FD13341B66560E000F472C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 96FD131B1B66560E000F472C;
+					};
+				};
+			};
+			buildConfigurationList = 96FD13171B66560E000F472C /* Build configuration list for PBXProject "Lovesickness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FD13131B66560E000F472C;
+			productRefGroup = 96FD131D1B66560E000F472C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FD131B1B66560E000F472C /* Lovesickness */,
+				96FD13341B66560E000F472C /* LovesicknessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FD131A1B66560E000F472C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD132D1B66560E000F472C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD13331B66560E000F472C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66090E5CEB4998C85B5B0BCF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3352C7C8A78107D6F6BCAE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lovesickness/Pods-Lovesickness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FD13181B66560E000F472C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD13251B66560E000F472C /* AppDelegate.m in Sources */,
+				96FD13221B66560E000F472C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FD13311B66560E000F472C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FD133C1B66560E000F472C /* LovesicknessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96FD13371B66560E000F472C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FD131B1B66560E000F472C /* Lovesickness */;
+			targetProxy = 96FD13361B66560E000F472C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96FD133D1B66560E000F472C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96FD133E1B66560E000F472C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FD13401B66560E000F472C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB46E5F484459BE8873A0EB /* Pods-Lovesickness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lovesickness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96FD13411B66560E000F472C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369A54B379ADB99A4B9F39E1 /* Pods-Lovesickness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lovesickness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96FD13431B66560E000F472C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LovesicknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovesickness.app/Lovesickness";
+			};
+			name = Debug;
+		};
+		96FD13441B66560E000F472C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LovesicknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovesickness.app/Lovesickness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FD13171B66560E000F472C /* Build configuration list for PBXProject "Lovesickness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD133D1B66560E000F472C /* Debug */,
+				96FD133E1B66560E000F472C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FD133F1B66560E000F472C /* Build configuration list for PBXNativeTarget "Lovesickness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD13401B66560E000F472C /* Debug */,
+				96FD13411B66560E000F472C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FD13421B66560E000F472C /* Build configuration list for PBXNativeTarget "LovesicknessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD13431B66560E000F472C /* Debug */,
+				96FD13441B66560E000F472C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FD13141B66560E000F472C /* Project object */;
+}
